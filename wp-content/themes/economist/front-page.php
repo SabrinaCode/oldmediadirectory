@@ -9,7 +9,7 @@
 				<section class="content-area clearfix">
 					<div class="directory-results left">
 						<div class="loading-overlay">
-							<span class="fa fa-spinner fa-pulse"></span>
+							<span class="fa fa-circle-o-notch fa-spin"></span>
 						</div>
 
 					<?php if ( $people = get_people() ) : ?>

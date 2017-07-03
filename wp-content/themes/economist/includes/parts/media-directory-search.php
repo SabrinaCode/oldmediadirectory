@@ -3,10 +3,11 @@
 		<div class="field ib">
 			<label for="field-name">Name</label>
 			<input type="text" value="" id="field-name" name="name">
+			<button type="reset" class="initial-reset ib">×</button>
 		</div>
 
 		<button type="submit" class="initial-search ib">Search</button>
-		<button type="reset" class="initial-reset ib">Reset</button>
+
 
 		<div class="advanced-fields ib right">
 			<span>Advanced Search</span>

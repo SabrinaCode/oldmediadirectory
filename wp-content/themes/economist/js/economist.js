@@ -81,7 +81,7 @@ var Economist = (function() {
  	};
 
  	var _resetSearch = function() {
- 		$('.initial-reset, .advanced-reset').on('click', function() {
+ 		$('.initial-reset, .advanced-reset, .return-to-list').on('click', function() {
  			setTimeout(function() {
  				$('.advanced-submit').click();
  			}, 0);
@@ -106,7 +106,7 @@ var Economist = (function() {
 
 				$('<div />', {
 					'class' : 'loading-overlay',
-					'html'  : '<span class="fa fa-spinner fa-pulse"></span>'
+					'html'  : '<span class="fa fa-circle-o-notch fa-spin"></span>'
 				}).appendTo(dr);
 
 				dr.insertBefore( $('.profile-details') );

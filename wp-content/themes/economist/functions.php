@@ -19,7 +19,7 @@
 /**
  * Filters and actions
  */
- 	add_theme_support( 'post-thumbnails', array('people') );
+ 	add_theme_support( 'post-thumbnails', 'full' );
 
 	add_action('init', 'load_resources');
 	add_action('init', 'register_custom_post_types');
@@ -32,12 +32,15 @@
 	}
 
 	add_filter('gform_submit_button', 'modify_gform_submit', 10, 2);
+	add_filter('jpeg_quality', function($arg){return 100;});
+	add_filter( 'wp_editor_set_quality', function($arg){return 100;} );
+
 
 /**
  * Image Sizes
  */
  	add_image_size('person_result_photo', 65, 80, true);
-	add_image_size('person_biography_photo', 186, 226, true);
+	add_image_size('person_biography_photo', 210, 256, true);
 
 /**
  * Functions
@@ -84,7 +87,7 @@
 		return $title;
 	}
 
-	function get_post_thumbnail( $id = '', $size = '', $alt = '', $boolean = false ) {
+	function get_post_thumbnail( $id = '', $size =  'full', $alt = '', $boolean = false ) {
 		global $post;
 
 		$id = $id ? $id : $post->ID;

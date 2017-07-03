@@ -1,0 +1,9 @@
+@media print {
+  .biography .biography-header {
+    display: block;
+    width: 128px;
+    height: 64px;
+    margin: 0;
+    background-color: red;
+  }
+}

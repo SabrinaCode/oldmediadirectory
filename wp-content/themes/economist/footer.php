@@ -3,31 +3,27 @@
         <ul>
           <li><a target="_blank" href="http://www.economist.com/contact-info">Contact us</a></li>
           <li><a target="_blank" href="http://www.economist.com/help">Help</a></li>
-          <li><a target="_blank" href="http://www.economist.com/help/about-us#About_Economistcom">About us</a></li>
-          <li><a target="_blank" href="http://www.economistgroupmedia.com">Advertise with us</a></li>
-          <li><a target="_blank" href="http://www.economist.com/mediadirectory">Editorial Staff</a></li>
-          <li><a target="_blank" href="http://www.economist.com/mediadirectory/books">Staff Books</a></li>
+          <li><a target="_blank" href="http://www.economistgroupmedia.com">Advertise</a></li>
           <li><a target="_blank" href="http://www.economistgroup.com/working_with_us/job_opportunities/index.html">Careers</a></li>
-          <li><a target="_blank" href="http://www.economist.com/content/site-index">Site index</a></li>
-          <li class="right-link"><a id="fblink" onclick="oo_feedback.show();" title="[+] Site Feedback" href="javascript:void(0);">[+] Site Feedback</a></li>
         </ul>
       </div>
 
       <div class="footer-stripe-bottom">
         <ul>
-          <li>Copyright © The Economist Newspaper Limited 2015. All rights reserved.</li>
+					 <li><a target="_blank" href="http://www.economist.com/legal/terms-of-use">Terms of use</a></li>
+					 <li><a target="_blank" href="http://www.economistgroup.com/results_and_governance/governance/privacy">Privacy</a></li>
+					 <li><a target="_blank" href="http://www.economist.com/cookies-info">Cookies info</a></li>
             <li><a target="_blank" href="http://www.economist.com/help/accessibilitypolicy">Accessibility</a></li>
-            <li><a target="_blank" href="http://www.economistgroup.com/results_and_governance/governance/privacy">Privacy policy</a></li>
-            <li><a target="_blank" href="http://www.economist.com/cookies-info">Cookies info</a></li>
-            <li><a target="_blank" href="http://www.economist.com/legal/terms-of-use">Terms of use</a></li>
+						<li class="footer-stripe-copyright">Copyright © The Economist Newspaper Limited 2015. All rights reserved.</li>
       </ul>
+
 <!--
     SiteCatalyst code version: H.13    Copyright 1997-2009 Omniture, Inc.
     More info available at http://www.omniture.com
 -->
 <script language="javascript" type="text/javascript">var s_account = 'economistcomprod';
 </script>
-<script language="javascript" src="http://cdn.static-economist.com/sites/default/files/external/ec_omniture/3_5/ec_omniture_s_code.js" type="text/javascript"></script>
+<!-- <script language="javascript" src="http://cdn.static-economist.com/sites/default/files/external/ec_omniture/3_5/ec_omniture_s_code.js" type="text/javascript"></script> -->
 <script language="javascript" type="text/javascript">
 var EcontestURL =location.pathname;
 var EcontestURLpath =EcontestURL.split('/');
@@ -62,8 +58,8 @@ if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+
 window.bk_async = function() {
 	// INSERT DATA HERE IN THE FORM:
 	// bk_addPageCtx("<<SOMEKEY>>", "<<SOMEVALUE>>");
-	
-	
+
+
 	try{
 		if(typeof Econ.user.user.country !== 'undefined'){
 			var bkCountry = (typeof Econ.user.user.country.iso != 'undefined' ? Econ.user.user.country.iso : '');
@@ -71,10 +67,10 @@ window.bk_async = function() {
 			bk_addPageCtx("ctry", bkCountry);
 			bk_addPageCtx("reg", bkRegion);
 		}
-	}	
+	}
 	catch(e){}
-	
-	try{	
+
+	try{
 		if(typeof s !='undefined'){
 			var bkChannel = (typeof s.channel != 'undefined' ? s.channel : '');
 			var bkPageName = (typeof s.pageName != 'undefined' ? s.pageName : '');
@@ -119,7 +115,7 @@ window.bk_async = function() {
 			bk_addPageCtx("events", bkevents);
 		}
 	}
-	catch(e){}	
+	catch(e){}
   bk_doJSTag(18452, 10);
 
 };

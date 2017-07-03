@@ -52,8 +52,9 @@
 								<?php endif; ?>
 
 								<?php if ( $twitter = get_field('person_twitter') ) : ?>
-									<h6>Twitter <span class="fa fa-twitter"></span>: <span><a href="http://www.twitter.com/<?php echo $twitter; ?>"><?php echo $twitter; ?></a></span></h6>
+									<h7><span class="fa fa-twitter"></span><span><a href="http://www.twitter.com/<?php echo $twitter; ?>"><?php echo $twitter; ?></a></span></h7>
 								<?php endif; ?>
+
 								</div>
 							</header>
 
@@ -140,7 +141,8 @@
 							</footer>
 						</div>
 
-						<a href="javascript:history.back();" class="back-to-results">&laquo; Return to journalist list</a>
+						<button type="reset" class="return-to-list">&lt; Return to journalist list</button>
+						<h7 class="print-box"><span><a href="javascript:if(window.print)window.print()" class="fa fa-print"></a></span></h7>
 
 						<div class="content-area-box media-request-form">
 							<?php gravity_form(1, true, true, false, false, true ); ?>

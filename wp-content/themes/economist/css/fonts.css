@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'EconSans';
+  font-weight: 300;
+  src:
+    /* Super Modern Browsers */
+    url('assets/ecosans-lig.woff2') format('woff2'),
+    /* Pretty Modern Browsers */
+    url('assets/ecosans-lig.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'EconSans';
+  font-style: normal;
+  src:
+    url('assets/ecosans-reg.woff2') format('woff2'),
+    url('assets/ecosans-reg.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'EconSans';
+  font-weight: 500;
+  src:
+    url('assets/ecosans-med.woff2') format('woff2'),
+    url('assets/ecosans-med.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'EconSans';
+  font-weight: 700;
+  src:
+    url('assets/ecosans-bol.woff2') format('woff2'),
+    url('assets/ecosans-bol.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'EconSans';
+  font-style: italic;
+  src:
+    url('assets/ecosans-ita.woff2') format('woff2'),
+    url('assets/ecosans-ita.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'MiloSerifPro';
+  font-style: normal;
+  src:
+    url('assets/ecoserif-reg.woff2') format('woff2'),
+    url('assets/ecoserif-reg.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'MiloSerifPro';
+  font-style: italic;
+  src:
+    url('assets/ecoserif-ita.woff2') format('woff2'),
+    url('assets/ecoserif-ita.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'MiloSerifPro';
+  font-weight: 500;
+  src:
+    url('assets/ecoserif-med.woff2') format('woff2'),
+    url('assets/ecoserif-med.woff') format('woff');
+}
